@@ -62,3 +62,33 @@ body {
      margin-right: 15px;
 }
 
+.popup .title {
+     font-size: 1.2rem;
+}
+
+
+.popup .desc {
+     color: #474747;
+     margin: 3px 0 10px;
+     font-size: 1.04rem;
+}
+
+.popup .reconnect {
+     border: none;
+     outline: none;
+     color: #fff;
+     font-size: 0.95rem;
+     cursor: pointer;
+     padding: 9px 15px;
+     cursor:#5372f0;
+     background-color: #5372f0;
+}
+
+
+@media screen and (max-width: 550px) {
+     .popup {
+          width: 100%;
+          padding:  10px 15px 17px;
+     }
+     
+}
